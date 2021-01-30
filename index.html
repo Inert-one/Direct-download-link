@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Direct Link generator</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sbuttons/dist/sbuttons.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+            integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+            crossorigin="anonymous" />
+        <link rel="shortcut icon" href="/img/af..svg" type="image/x-icon">
+    </head>
+
+    <body>
+        <nav class="navbar navbar-light bg-transparent">
+            <div class="container-fluid">
+                <a class="navbar-brand text-light" href="#">
+                    <img src="/img/af..svg" alt="" width="40" height="40" class="d-inline-block align-top">
+                    Direct Link Generator - Google Drive, Dropbox, Onedrive
+                </a>
+            </div>
+        </nav>
+
+
+        <div class='post-header'>
+            <div class='post-header-line-1'></div>
+        </div>
+        <div class='post-body entry-content' id='post-body-3564729550326005689'>
+            <br />
+            <div class="block text-center">
+                <label for="cde">Enter Cloud link:</label>
+                <div class="input-group mb-3 justify-content-center">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon3"><i class="fas fa-cloud"
+                                style="margin-right: 5px;"></i>https://</span>
+                    </div>
+                    <div class="col-sm-10">
+                        <input id="cde" class="form-control" onkeydown="if (event.keyCode == 13) $('but').click()"
+                            placeholder="e.g., https://drive.google.com/file/d/1zIN4loT0M7c8npE9csf1jCtEDTUKX5j_/view?usp=sharing"
+                            type="text" /><br />
+                    </div>
+                </div>
+                <button class="sbtn next-arrow-btn purple-btn col-md-3" id="but">Generate</button> <label
+                    for="linkpaste" style="display:block">Direct Download link:</label>
+                <input id="linkpaste" data-target="#copyModal" data-toggle="modal" readonly="" type="text"
+                    onclick="copy()" />
+            </div>
+
+
+            <div class="bg2">
+                <svg style="position:absolute; bottom:0%; z-index:-1" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 1440 320">
+                    <path fill="#6a5acd" fill-opacity="1"
+                        d="M0,224L120,234.7C240,245,480,267,720,277.3C960,288,1200,288,1320,288L1440,288L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z">
+                    </path>
+                </svg>
+                <div class="notes">
+                    <h2>
+                        How to create direct links with this tool?</h2>
+                    <ol>
+                        <li>First you must obtain the share URL.</li>
+                        <li>Paste that link in the 'Enter Share link' textbox.</li>
+                        <li>Then, press Enter or click Generate.</li>
+                        <li>Click on the generated link to copy it.</li>
+                    </ol>
+                </div>
+                <div class="instruc">
+                    <h2>
+                        Important notes</h2>
+                    <ul>
+                        <li>This page can be used being offline too, so save it for future</li>
+                        <li>You can use it for Google Drive, Dropbox and Onedrive (Free & Business) links</li>
+                    </ul>
+                </div>
+            </div>
+
+            <script src="script.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+                crossorigin="anonymous"></script>
+
+    </body>
+
+</html>

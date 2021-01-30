@@ -1,0 +1,56 @@
+#linkpaste {
+    min-width: 95%;
+    font-family: Courier;
+    font-size: .9em;
+    background: #F7F7F7;
+    margin: 0.5em auto;
+    padding: 1em 1em 1em;
+    border: 1px solid rgb(141, 3, 255);
+}
+.bg2{
+    background: url(./img/bg2.svg) no-repeat;
+}
+
+body{
+    background:url(./img/bg.svg) no-repeat;
+    background-size: 100vw;
+    background-attachment: fixed;
+    width: 100vw;
+    top: 2px;
+    height:100%;
+}
+
+.instruc {
+    width: 48%;
+    float: left;
+    margin-left: 10px;
+}
+
+.notes {
+    width: 48%;
+    float: right;
+    margin-right: 10px;
+}
+
+.instruc h2,
+.notes h2 {
+    font-size: 1.3em;
+    border-bottom: 1px solid #6a5acd;
+    padding-bottom: .2em;
+    margin-bottom: .3em;
+}
+
+.instruc ol,
+.notes ul {
+    margin-left: 20px;
+}
+
+label {
+    font-family: Georgia;
+    font-size: 1.5em;
+}
+
+.block {
+    padding-top: 2em;
+    margin-bottom: 1em;
+}
