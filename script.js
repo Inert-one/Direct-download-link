@@ -55,3 +55,9 @@ function copy() {
         alert("Copied the text: " + copyText.value);
     }
 }
+
+var width = window.innerWidth;
+
+if (width <= 797) {
+  window.alert("This site is not compatible for this screen size")
+}
