@@ -20,4 +20,4 @@ This is simple webpage to generate direct download link for files on Google driv
 This Webpage Was Developed By [Shubham Dubey](https://github.com/inert-one).
 
 ---
-[Follow me](https://img.shields.io/github/followers/Inert-one?label=Follow%20me&style=social)
+[![Follow me](https://img.shields.io/github/followers/Inert-one?label=Follow%20me&style=social)](https://github.com/inert-one)
