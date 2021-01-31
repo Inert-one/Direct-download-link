@@ -51,8 +51,8 @@ function copy() {
   }
 }
 
-var width = window.innerWidth;
+// var width = window.innerWidth;
 
-if (width <= 797) {
-  window.alert("This site is not compatible for this screen size");
-}
+// if (width <= 797) {
+//   window.alert("This site is not compatible for this screen size");
+// }
