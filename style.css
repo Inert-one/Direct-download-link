@@ -22,7 +22,9 @@ label {
   font-family: Georgia;
   font-size: 1.5em;
 }
-
+.hidden{
+    overflow-x: hidden;
+}
 .block {
   padding-top: 2em;
   margin-bottom: 1em;
