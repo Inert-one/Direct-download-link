@@ -1,35 +1,19 @@
-# Direct Download Link Generator for Google drive and OneDrive
+# Direct Download Link Generator for Google drive, Dropbox & OneDrive (Business& Personal)
 
-For Generating GoogleDrive Direct Link:
+This is simple webpage to generate direct download link for files on Google drive, Dropbox And Onedrive, which lets you download your stuffs without visiting parent cloud storage provider.
 
-![Google_Drive_Link2](https://user-images.githubusercontent.com/48202123/84927355-ffd22300-b0cc-11ea-8254-6d7285e6c21c.gif)
+## Steps to generate links
 
-For Generating OneDrive Direct Link:
+1. First you must obtain the share URL.
+2. Paste that link in the 'Enter Share link' textbox.
+3. Then, press Enter or click Generate.
+4. Click on the generated link to copy it.
 
-![Onedrive](https://user-images.githubusercontent.com/48202123/84927522-41fb6480-b0cd-11ea-85b7-66b957a156d8.gif)
+## Important notes
 
-## Installation
-
- [Download Python](https://www.python.org/downloads/release/python-360/) to Run the Module.
-
-```bash
-#--------------------- Running With Python---------------------------------#
-1- Download any Python Version 3.6.x ~ 3.9.x , add python to path
-2- Open CMD in Downloaded files Directory
-3- run this command to install dependencies 
-#--------------------------------------------------------------------------#
-
-```
-
-## Usage
-
-```python
-1- Open CMD & Run 
-2- python Generator.py
-3- Do help command
-#--------------------------------------------------------------------------#
-```
+- This page can be used being offline too, so **Save it for future**.
+- You can use it for Google Drive, Dropbox and Onedrive (Free & Business) links.
+- Any contribution towards its betterment would be highly appreciated. :+1:
 
 ## Contributing
-This Module Was Developed By InertOne
-
+This Webpage Was Developed By Shubham Dubey(@inert-one).
