@@ -1,3 +1,4 @@
+
 # Direct Download Link Generator for Google drive, Dropbox & OneDrive (Business& Personal)
 
 This is simple webpage to generate direct download link for files on Google drive, Dropbox And Onedrive, which lets you download your stuffs without visiting parent cloud storage provider.
@@ -16,4 +17,7 @@ This is simple webpage to generate direct download link for files on Google driv
 - Any contribution towards its betterment would be highly appreciated. :+1:
 
 ## Contributing
-This Webpage Was Developed By Shubham Dubey(@inert-one).
+This Webpage Was Developed By [Shubham Dubey](github.com/inert-one).
+
+---
+https://img.shields.io/github/followers/Inert-one?label=Follow%20me&style=social
