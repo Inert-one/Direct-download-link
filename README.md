@@ -12,6 +12,7 @@ This is simple webpage to generate direct download link for files on Google driv
 
 ## Important notes
 
+- You can now directly download Google drive files and watch the same on this platform too. 
 - This page can be used being offline too, so **Save it for future**.
 - You can use it for Google Drive, Dropbox and Onedrive (Free & Business) links.
 - Any contribution towards its betterment would be highly appreciated. :+1:
