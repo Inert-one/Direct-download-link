@@ -8,7 +8,6 @@
   border: 1px solid rgb(141, 3, 255);
 }
 
-
 body {
   background: url(./img/bg.svg) no-repeat;
   background-size: cover;
@@ -22,10 +21,19 @@ label {
   font-family: Georgia;
   font-size: 1.5em;
 }
-.hidden{
-    overflow-x: hidden;
+.hidden {
+  overflow-x: hidden;
 }
 .block {
   padding-top: 2em;
   margin-bottom: 1em;
+}
+iframe {
+  height: 350px;
+}
+
+@media (max-width: 797px) {
+  iframe {
+    height: 250px;
+  }
 }
